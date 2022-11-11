@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   typescript: {
     shim: false,
     strict: true,
+    // typeCheck: true, TODO: @nuxt/ui でエラーになる
   },
   modules: [
     '@nuxt/ui'

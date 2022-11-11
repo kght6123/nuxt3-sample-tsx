@@ -47,3 +47,9 @@ Testを試す
 https://v3.nuxtjs.org/examples/advanced/testing
 https://vuejs.org/guide/scaling-up/testing.html#unit-testing
 
+useFetch + auto-typed endpointsを試す（APIの型が自動補完される）
+https://twitter.com/youyuxi/status/1568013957914558464
+
+ISRを試す
+https://zenn.dev/coedo/articles/cc000738a0f069#（追記）-isr-の実装例
+
