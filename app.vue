@@ -27,5 +27,6 @@ const InlineComponent = () => (
     <MyComponent message="This is an external JSX component" />
     <UseFetch />
     <CounterExample />
+    <draggableSimple />
   </NuxtExampleLayout>
 </template>
