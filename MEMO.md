@@ -61,3 +61,4 @@ Tailwind CSSを試す
 https://tailwindcss.com/docs/guides/nuxtjs#3
 
 DnD（SortableJS）を試す
+https://github.com/SortableJS/vue.draggable.next
