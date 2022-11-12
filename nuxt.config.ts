@@ -5,9 +5,7 @@ export default defineNuxtConfig({
     strict: true,
     // typeCheck: true, TODO: @nuxt/ui でエラーになる
   },
-  modules: [
-    '@nuxt/ui'
-  ],
+  modules: ['@nuxt/ui'],
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {

@@ -8,8 +8,8 @@ describe('example', async () => {
   test('Renders Hello Nuxt', async () => {
     const wrapper = mount(Stepper, {
       props: {
-        max: 1
-      }
+        max: 1,
+      },
     })
     expect(wrapper.find(valueSelector).text()).toContain('0')
     await wrapper.find(buttonSelector).trigger('click')

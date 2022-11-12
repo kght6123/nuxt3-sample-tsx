@@ -67,4 +67,5 @@ https://sortablejs.github.io/Sortable/#multi-drag
 
 useFetch + auto-typed endpointsのユニットテストを試す、JSX版を作る
 
-prettier + eslintを入れる
+✅ prettier + eslintを入れる
+https://zenn.dev/amemiya/scraps/06c2d3db952eee

@@ -1,14 +1,8 @@
 export default defineComponent({
   props: {
-    message: String
+    message: String,
   },
-  render: (props: {
-    message: string
-  }) => {
-    return (
-    <div>
-      { props.message }
-    </div>
-    )
-  }
+  render: (props: { message: string }) => {
+    return <div>{props.message}</div>
+  },
 })

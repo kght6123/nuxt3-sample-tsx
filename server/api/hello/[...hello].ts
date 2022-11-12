@@ -1,4 +1,4 @@
-export default defineEventHandler(event => ({
+export default defineEventHandler((event) => ({
   path: '/api/' + event.context.params.hello,
-  query: getQuery(event)
+  query: getQuery(event),
 }))
