@@ -7,7 +7,7 @@
       </div>
 
       <div class="form-check">
-        <input id="disabled" type="checkbox" v-model="enabled" class="form-check-input" />
+        <input id="disabled" v-model="enabled" type="checkbox" class="form-check-input" />
         <label class="form-check-label" for="disabled">DnD enabled</label>
       </div>
     </div>
@@ -38,7 +38,7 @@
 import draggable from 'vuedraggable'
 let id = 1
 export default {
-  name: 'simple',
+  name: 'Simple',
   display: 'Simple',
   order: 0,
   components: {
