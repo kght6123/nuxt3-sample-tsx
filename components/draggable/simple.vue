@@ -29,8 +29,6 @@
         </div>
       </template>
     </draggable>
-
-    <rawDisplayer class="col-3" :value="list" title="List" />
   </div>
 </template>
 
