@@ -2,6 +2,9 @@
 import { defineComponent, reactive } from 'vue'
 
 export default defineComponent({
+  props: {
+    max: { type: Number, required: true },
+  },
   setup(props) {
     const counter = reactive<{ count: number }>({ count: 0 })
     return () => (
@@ -18,9 +21,6 @@ export default defineComponent({
         </div>
       </>
     )
-  },
-  props: {
-    max: { type: Number, required: true },
   },
 })
 </script>

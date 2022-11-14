@@ -8,7 +8,9 @@ const { data } = await useFetch(() => `/api/hello/hello/${count.value}`, { param
     <div>
       Fetch result:
       <pre class="text-left"><code>{{ data }}</code></pre>
-      <NButton @click="count++"> + </NButton>
+      <NButton @click="count++">
+        +
+      </NButton>
     </div>
   </NuxtExampleLayout>
 </template>
