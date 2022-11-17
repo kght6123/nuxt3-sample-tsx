@@ -1,8 +1,9 @@
 import CounterExample from '../components/CounterExample.vue'
-import { describe, expect, it, vi } from 'vitest'
+import { describe, expect, test, vi } from 'vitest'
 import { mount } from '@vue/test-utils'
 
 describe('example', async () => {
+  // TODO: useFetchのモックはうまくいかない、この場合はuseFetch以外を別コンポーネントにするか、NuxtのE2Eテストを使う必要がありそう。 https://nuxt.com/docs/getting-started/testing/
   // const codeSelector = 'code'
   // const buttonSelector = 'button'
   // const useFetch = async () =>
@@ -15,7 +16,7 @@ describe('example', async () => {
   //     unobserve: vi.fn(),
   //   }))
   // vi.stubGlobal('useFetch', useFetch)
-  it('Renders Hello Nuxt', async () => {
+  test('Renders Hello Nuxt', async () => {
     const wrapper = mount(CounterExample, {
       props: {},
     })
