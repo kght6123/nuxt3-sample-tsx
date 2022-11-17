@@ -4,9 +4,5 @@ const { data } = await useFetch(() => `/api/hello/hello/${count.value}`, { param
 </script>
 
 <template>
-  <div>
-    Fetch result:
-    <pre class="text-left"><code>{{ data }}</code></pre>
-    <button @click="count++">+</button>
-  </div>
+  <UseFetchDataView :path="data.path" :count="count" @click="count = $event" />
 </template>
